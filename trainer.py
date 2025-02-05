@@ -7,7 +7,7 @@ def main():
     model = YOLO("yolov5nu.pt")  # Use YOLOv5n model
 
     model.train(
-        data="./datasets/data.yaml",
+        data="data.yaml",
         epochs=1,
         imgsz=640,
         batch=8,
