@@ -1,0 +1,13 @@
+train: /home/aruncs/Projects/AI-Based-Accident-Avoidance-System-AI-BAAS/AI-Based-Accident-Avoidance-System-AI-BAAS-Codes/test/AIBAAS-1/train/images
+val: /home/aruncs/Projects/AI-Based-Accident-Avoidance-System-AI-BAAS/AI-Based-Accident-Avoidance-System-AI-BAAS-Codes/test/AIBAAS-1/valid/images
+test: /home/aruncs/Projects/AI-Based-Accident-Avoidance-System-AI-BAAS/AI-Based-Accident-Avoidance-System-AI-BAAS-Codes/test/AIBAAS-1/test/images
+
+nc: 1
+names: ['person']
+
+roboflow:
+  workspace: object-detection-wvhn4
+  project: aibaas
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/object-detection-wvhn4/aibaas/dataset/1
